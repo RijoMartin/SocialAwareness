@@ -1,11 +1,42 @@
-.ViewPort {
+.ViewPort1 {
     background-color: rgb(0, 0, 0);
     height: 100%;
     text-align: center;
     display: block;
 }
 
-#img1 {
+#imgA1 {
     opacity: 0%;
     transition: opacity 1s;
+    width: 65%;
+}
+
+#imgA2 {
+    width: 65%;
+}
+
+#imgA2_1:hover {
+    cursor: pointer;
+}
+
+#imgA2_1 {
+    width: 65%;
+}
+
+#imgA3 {
+    margin-top: 40px;
+    width: 65%;
+}
+
+#imgA3:hover {
+    cursor: pointer;
+}
+
+.imgB {
+    width: 65%;
+}
+
+#imgB3 {
+    width: 65%;
+    margin-top: 10%;
 }

@@ -1,3 +1,4 @@
 export default interface HomePageState{
-    showHomePage: boolean;
+    showFirstPage: boolean;
+    showStory: boolean;
 }

@@ -165,13 +165,13 @@ changePageState = () =>{
               attributeType="XML"
               type="rotate"
               from="360 650 150"
-              to="0 600 270"
+              to="0 600 170"
               dur="30s"
               repeatCount="1" />
               <animate
               attributeName="fill"
               values="#D8D5D5;transparent"
-              begin="26s"
+              begin="10s"
               dur="2s"
               calcMode="discrete"
               repeatCount="indefinite"
