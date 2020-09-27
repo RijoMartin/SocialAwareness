@@ -10,11 +10,18 @@ class Poly14 extends Component<Poly14Props, Poly14State> {
     }
   }
 
+  componentDidMount(){
+    var elem = document.querySelector('#img1');    
+      setTimeout(() => {
+        if(elem != null)
+        elem.setAttribute("style","opacity: 100%;transition: opacity 2s;")
+      }, 1000);  
+  }
 
   render() {
     return (
       <div className="ViewPort">
-        <img src="RapeCulture.png" alt="Rape Culture" id="img1"></img>
+        <img src="RapeCulture.png" alt="Rape Culture"  id="img1"></img>
 
       </div>
 
